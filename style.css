@@ -1,0 +1,64 @@
+.gamename{
+    width: 700px; 
+    /* height:200px; */
+    /* margin-top: 10px; */
+}
+body{
+    background-color: rgb(227, 227, 184);
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: rgb(227, 241, 71);
+
+    /* background-color: #dcd6bc; */
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 60px;
+    /* border: 10px solid blue; */
+    border: 10px solid rgb(7, 96, 249); 
+}
+
+.flags{
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 10px;
+    font-family:'Merriweather',monospace;
+}
+
+/* .grid div{
+    width:35px;
+    height:35px;
+    border:1px solid black;
+    box-sizing: border-box;
+    so that the padding and margin is included in the width and height itself  and doing it inside the grid div as it can be applied to else also which we dont want 
+} */
+
+.safe,.bomb{
+    font-size:20px;
+    text-align: center;
+    width:35px;
+    height:35px;
+    border: 4px solid;
+    box-sizing: border-box;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+}
+
+.checked{
+    
+    font-size:20px;
+    text-align: center;
+    width:35px;
+    height:35px;
+    border: 4px solid;
+    box-sizing: border-box;
+    border-color:rgb(53, 177, 199)
+}
+
+.result {
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 10px;
+    font-family:'Merriweather',monospace;
+}
